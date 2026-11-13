@@ -1,22 +1,39 @@
-# ✅ Week05 Bootcamp2019 Project: Todo List
+# To-Do List
 
-### Goal: Build a Simple Todo List
+A simple to-do list app built with HTML, CSS, and vanilla JavaScript. Add tasks, check them off, and delete them one at a time or all at once.
 
-### How to submit your code for review:
+## Features
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+- Add a task with the input box and the **Add** button
+- Alert if you try to add an empty task
+- Check a task to cross it out, uncheck it to bring it back
+- Delete a single task with the **x** button
+- **Delete All** button clears the whole list
+- **Delete All** hides itself when the list is empty
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## Built With
+
+- HTML
+- CSS
+- JavaScript (no frameworks or libraries)
+
+## Getting Started
+
+1. Clone the repo or download the files.
+2. Open `index.html` in your browser.
+
+No install or build step needed.
+
+## How It Works
+
+- `addTask()` reads the input, creates a new `<li>` with a checkbox, the task text, and an **x** button, then adds it to the list.
+- Each checkbox toggles a `strike-through` class on its task text.
+- Each **x** button removes its own `<li>`.
+- `deleteButton()` clears the entire list.
+- `updateDeleteButtonVisibility()` shows or hides **Delete All** depending on whether the list has any tasks. It runs after every add and delete, and once on page load.
+
+## Future Improvements
+
+- Save tasks with `localStorage`
+- Add the ability to edit a task
+- Let the Enter key add a task
