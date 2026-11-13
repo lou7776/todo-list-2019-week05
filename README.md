@@ -1,6 +1,6 @@
 # To-Do List
 
-A simple to-do list app built with HTML, CSS, and vanilla JavaScript. Add tasks, check them off, and delete them one at a time or all at once.
+A simple to-do list app built with HTML, CSS, and JavaScript. Add tasks, check them off, and delete them one at a time or all at once.
 
 
 <img width="1093" height="498" alt="Screenshot 2026-11-12 at 10 39 28 PM" src="https://github.com/user-attachments/assets/e310a985-bbf4-4085-a78b-316fb8681e3b" />
